@@ -1,0 +1,5 @@
+[build]
+  builder = "Nixpacks"
+
+[deploy]
+  command = "python manage.py migrate && python manage.py collectstatic --noinput"
